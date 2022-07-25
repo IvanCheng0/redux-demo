@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import { setVisibilityFilter } from "../actions";
+import { setVisibilityFilter } from "../../actions";
 
 const Link = ({ active, children, onClick }) => (
   <button
